@@ -62,7 +62,8 @@ function generatePassword() {
     // if user chooses at least one option
     if (
       lowerSelect || upperSelect || numberSelect || symbolSelect) {
-      return passwordString = popPassword(passwordLength, [lowerSelect, upperSelect, numberSelect, symbolSelect]);
+      // return passwordString = popPassword(passwordLength, [lowerSelect, upperSelect, numberSelect, symbolSelect]);
+      return passwordString = popPassword(passwordLength, [lowerSelect, upperSelect, numberSelect, symbolSelect]);    
 
     } else {
       // if user does not choose any option
